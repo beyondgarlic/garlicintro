@@ -226,22 +226,22 @@
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             const characters = [
-                { mbti: 'ENTJ', product: '의성 마늘', name: '마늘 장군 \'갈릭킹\'', concept: '강인하고 카리스마 있는 리더. 겉은 단단하고 속은 깊어 조직의 맛을 책임지는 존재.', emoji: 'images/entj.png' },
-                { mbti: 'ESTJ', product: '의성 마늘', name: '마늘 팀장 \'미스터 갈릭\'', concept: '체계적이고 현실적인 계획가. 어떤 요리든 정확한 맛을 내는 데 꼭 필요한 존재.', emoji: 'images/estj.png' },
-                { mbti: 'ISTJ', product: '의성 마늘', name: '마늘 전문가 \'닥터 스파이시\'', concept: '원칙적이고 꼼꼼한 성격. 묵묵히 제 할 일을 완벽하게 해내는 견고한 존재.', emoji: 'images/istj.png' },
-                { mbti: 'ISFJ', product: '의성 쌀', name: '든든한 \'라이스맨\'', concept: '차분하고 성실하며 모두의 일상에 없어서는 안 될 존재. 묵묵히 자리를 지키며 사람들에게 힘을 준다.', emoji: 'images/isfj.png' },
-                { mbti: 'ESFJ', product: '의성 쌀', name: '밥 한 그릇 \'라이시\'', concept: '따뜻하고 정이 넘치는 해결사. 사람들을 모아 즐거운 식사 자리를 만든다.', emoji: 'images/esfj.png' },
-                { mbti: 'INFJ', product: '의성 쌀', name: '명상하는 \'밥도사\'', concept: '신념이 확고하고 조용히 자신의 길을 가는 사색가. 깊은 맛과 향으로 사람들의 마음을 치유한다.', emoji: 'images/infj.png' },
-                { mbti: 'ENFP', product: '의성 자두', name: '상큼 발랄 \'플럼피\'', concept: '항상 에너지가 넘치고 밝은 매력으로 주변을 즐겁게 만든다. 달콤함으로 사람들의 마음을 사로잡는다.', emoji: 'images/enfp.png' },
-                { mbti: 'ESFP', product: '의성 자두', name: '춤추는 \'자두몽\'', concept: '유쾌하고 즉흥적인 분위기 메이커. 언제 어디서나 모두의 시선을 끄는 매력적인 스타.', emoji: 'images/esfp.png' },
-                { mbti: 'INFP', product: '의성 자두', name: '감성 가득 \'플럼베리\'', concept: '상상력이 풍부하고 따뜻한 감성가. 부드러운 단맛과 향으로 사람들의 마음을 위로한다.', emoji: 'images/infp.png' },
-                { mbti: 'ENTP', product: '의성 고추', name: '핫한 아이디어 \'핫페퍼\'', concept: '재치 있고 논리적인 발명가. 틀에 박히지 않은 새로운 맛을 추구하며 도전적인 사람.', emoji: 'images/entp.png' },
-                { mbti: 'ESTP', product: '의성 고추', name: '열정의 \'페퍼맨\'', concept: '뜨거운 열정을 지닌 모험가. 짜릿한 경험과 자극을 즐기며 새로운 도전을 두려워하지 않는다.', emoji: 'images/estp.png' },
-                { mbti: 'ISTP', product: '의성 고추', name: '스파이시한 \'고추 닌자\'', concept: '조용하고 과묵하지만 뛰어난 관찰력으로 숨겨진 맛을 찾아내는 기술자.', emoji: 'images/istp.png' },
-                { mbti: 'INTJ', product: '의성 사과', name: '원칙주의자 \'애플 박사\'', concept: '깨끗하고 반듯한 모양처럼 정직하고 꼼꼼하다. 한 치의 오차도 없이 완벽한 맛을 만들어낸다.', emoji: 'images/intj.png' },
-                { mbti: 'INTP', product: '의성 사과', name: '사과 철학자 \'애플로스\'', concept: '호기심 많고 지적인 탐구자. 복잡한 맛의 조합을 분석하고 새로운 맛의 가능성을 제시한다.', emoji: 'images/intp.png' },
-                { mbti: 'ISFP', product: '의성 사과', name: '자유로운 \'애플 듀오\'', concept: '예술적 감각이 뛰어나고 자유분방한 영혼. 달콤하고 상쾌한 맛으로 삶에 즐거움을 더한다.', emoji: 'images/isfp.png' },
-                { mbti: 'ENFJ', product: '의성 흑마늘', name: '흑마늘 멘토 \'블랙 가이\'', concept: '카리스마 넘치고 통찰력이 뛰어난 리더. 독특한 깊은 맛처럼 시간이 지날수록 진가가 드러나는 존재.', emoji: 'images/enfj.png' }
+                { mbti: 'ENTJ', product: '의성 마늘', name: '마늘 장군 \'갈릭킹\'', concept: '강인하고 카리스마 있는 리더. 겉은 단단하고 속은 깊어 조직의 맛을 책임지는 존재.', emoji: 'images/ENTJ.png' },
+                { mbti: 'ESTJ', product: '의성 마늘', name: '마늘 팀장 \'미스터 갈릭\'', concept: '체계적이고 현실적인 계획가. 어떤 요리든 정확한 맛을 내는 데 꼭 필요한 존재.', emoji: 'images/ESTJ.png' },
+                { mbti: 'ISTJ', product: '의성 마늘', name: '마늘 전문가 \'닥터 스파이시\'', concept: '원칙적이고 꼼꼼한 성격. 묵묵히 제 할 일을 완벽하게 해내는 견고한 존재.', emoji: 'images/ISTJ.png' },
+                { mbti: 'ISFJ', product: '의성 쌀', name: '든든한 \'라이스맨\'', concept: '차분하고 성실하며 모두의 일상에 없어서는 안 될 존재. 묵묵히 자리를 지키며 사람들에게 힘을 준다.', emoji: 'images/ISFJ.png' },
+                { mbti: 'ESFJ', product: '의성 쌀', name: '밥 한 그릇 \'라이시\'', concept: '따뜻하고 정이 넘치는 해결사. 사람들을 모아 즐거운 식사 자리를 만든다.', emoji: 'images/ESFJ.png' },
+                { mbti: 'INFJ', product: '의성 쌀', name: '명상하는 \'밥도사\'', concept: '신념이 확고하고 조용히 자신의 길을 가는 사색가. 깊은 맛과 향으로 사람들의 마음을 치유한다.', emoji: 'images/INFJ.png' },
+                { mbti: 'ENFP', product: '의성 자두', name: '상큼 발랄 \'플럼피\'', concept: '항상 에너지가 넘치고 밝은 매력으로 주변을 즐겁게 만든다. 달콤함으로 사람들의 마음을 사로잡는다.', emoji: 'images/ENFP.png' },
+                { mbti: 'ESFP', product: '의성 자두', name: '춤추는 \'자두몽\'', concept: '유쾌하고 즉흥적인 분위기 메이커. 언제 어디서나 모두의 시선을 끄는 매력적인 스타.', emoji: 'images/ESFP.png' },
+                { mbti: 'INFP', product: '의성 자두', name: '감성 가득 \'플럼베리\'', concept: '상상력이 풍부하고 따뜻한 감성가. 부드러운 단맛과 향으로 사람들의 마음을 위로한다.', emoji: 'images/INFP.png' },
+                { mbti: 'ENTP', product: '의성 고추', name: '핫한 아이디어 \'핫페퍼\'', concept: '재치 있고 논리적인 발명가. 틀에 박히지 않은 새로운 맛을 추구하며 도전적인 사람.', emoji: 'images/ENTP.png' },
+                { mbti: 'ESTP', product: '의성 고추', name: '열정의 \'페퍼맨\'', concept: '뜨거운 열정을 지닌 모험가. 짜릿한 경험과 자극을 즐기며 새로운 도전을 두려워하지 않는다.', emoji: 'images/ESTP.png' },
+                { mbti: 'ISTP', product: '의성 고추', name: '스파이시한 \'고추 닌자\'', concept: '조용하고 과묵하지만 뛰어난 관찰력으로 숨겨진 맛을 찾아내는 기술자.', emoji: 'images/ISTP.png' },
+                { mbti: 'INTJ', product: '의성 사과', name: '원칙주의자 \'애플 박사\'', concept: '깨끗하고 반듯한 모양처럼 정직하고 꼼꼼하다. 한 치의 오차도 없이 완벽한 맛을 만들어낸다.', emoji: 'images/INTJ.png' },
+                { mbti: 'INTP', product: '의성 사과', name: '사과 철학자 \'애플로스\'', concept: '호기심 많고 지적인 탐구자. 복잡한 맛의 조합을 분석하고 새로운 맛의 가능성을 제시한다.', emoji: 'images/INTP.png' },
+                { mbti: 'ISFP', product: '의성 사과', name: '자유로운 \'애플 듀오\'', concept: '예술적 감각이 뛰어나고 자유분방한 영혼. 달콤하고 상쾌한 맛으로 삶에 즐거움을 더한다.', emoji: 'images/ISFP.png' },
+                { mbti: 'ENFJ', product: '의성 흑마늘', name: '흑마늘 멘토 \'블랙 가이\'', concept: '카리스마 넘치고 통찰력이 뛰어난 리더. 독특한 깊은 맛처럼 시간이 지날수록 진가가 드러나는 존재.', emoji: 'images/ENFJ.png' }
             ];
 
             const characterGrid = document.getElementById('character-grid');
